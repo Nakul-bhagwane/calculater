@@ -1,0 +1,88 @@
+body{
+    background-color: rgba(0, 128, 0, 0.452);
+}
+#body{
+    /* border: dotted black; */
+    border-top: 2px solid;
+    border-bottom: 4px solid;
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+    margin: 100px auto;
+    background-color: rgb(214, 214, 24);
+    box-shadow: rgb(70, 102, 5) 10px 20px 50px 25px ;
+}
+#screen{
+    height: 80px;
+    width: 250px;
+    border: 1px solid;
+    margin: 10px 22px;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+}
+
+#keypad{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 280px;
+    height: 280px;
+    margin: 5px 8px;
+    background-color: rgba(104, 145, 21, 0.384);
+    /* display: none; */
+}
+.btn{
+    /* border: none; */
+    height: 40px;
+    width: 80px;
+    margin: 3px 5px 3px 5px;
+    font-size: x-large;
+}
+.ac{
+    width: 125px;
+    margin: 3px 6.5px 0px 5px;
+
+}
+.del{
+    width: 125px;
+   margin: 3px 5px 0px 6.5px;
+}
+
+
+/*responsive design for mobile */
+
+@media only screen and (max-width:414px){
+    
+    #body{
+    height: 400px;
+    width: 250px;
+    margin: auto;
+    }
+    #screen{
+        height: 80px;
+        width: 200px;
+        border: 1px solid;
+        margin: 25px 22px;
+        font-size: xx-large;
+    }
+    #keypad{
+        width: 200px;
+        height: 200px;
+        margin: 15px 25px;
+    }
+    .btn{
+        /* border: none; */
+        height: 26px;
+        width: 53px;
+        margin: 3px 5.5px 3px 5.4px;
+        font-size: larger;
+    }
+    .ac{
+        width: 90px;
+    margin: 3px 2.5px 0px 5px;
+    }
+    .del{
+        width: 90px;
+   margin: 3px 5px 0px 2.5px;
+
+    }
+}
